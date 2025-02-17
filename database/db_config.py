@@ -8,7 +8,7 @@ load_dotenv()
 # Database Configuration
 DB_HOST = os.getenv("DB_HOST", "127.0.0.1").strip()  # Ensure correct format
 DB_USER = os.getenv("DB_USER", "root").strip()
-DB_PASSWORD = os.getenv("DB_PASSWORD", "").strip()
+DB_PASSWORD = os.getenv("DB_PASSWORD", "01788541577").strip()
 DB_NAME = os.getenv("DB_NAME", "youtube_trends").strip()
 
 # Connect to Database
